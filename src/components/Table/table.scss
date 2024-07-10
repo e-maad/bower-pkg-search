@@ -1,0 +1,25 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--color-brown);
+  & thead th {
+    border-bottom: 1px solid #eee;
+    padding: 5px 0 15px 0;
+    text-align: left;
+    min-width: 80px;
+    text-decoration: none;
+    color: #008ec4;
+    text-align: left;
+    cursor: pointer;
+  }
+  & tbody tr {
+    border-bottom: 1px solid #eee;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  & td span {
+    word-break: break-all;
+    white-space: normal;
+  }
+}

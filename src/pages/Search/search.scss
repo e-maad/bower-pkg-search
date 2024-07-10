@@ -1,0 +1,36 @@
+.search {
+  margin-right: 10px;
+
+  &-result {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 1px #ccc;
+    margin-bottom: 50px;
+    padding: 8px;
+  }
+}
+
+.name-cell {
+  margin: 10px 0px;
+
+  & h4,
+  p {
+    word-break: break-all;
+    margin: 0px;
+  }
+
+  & .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    fill: var(--color-brown);
+  }
+
+  & a {
+    display: block;
+    color: var(--color-blue-secondary);
+    font-size: 14px;
+    text-decoration: none;
+  }
+}

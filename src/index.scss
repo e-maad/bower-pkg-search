@@ -1,0 +1,20 @@
+:root {
+  --color-mustard: #ffcc2f;
+  --color-blue-header: #2188b6;
+  --color-blue-primary: #00acee;
+  --color-blue-secondary: #008ec4;
+  --color-green: #2baf2b;
+  --color-brown: #543729;
+  --color-gray: #aaa;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--color-brown);
+  line-height: 1.5;
+}
+
+input {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,275 @@
+// header
+.header {
+  background-color: var(--color-mustard);
+  padding-top: 10px;
+
+  &-wrapper {
+    min-height: 170px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+  }
+
+  &-logo {
+    position: absolute;
+    width: 140px;
+    transition: all 0.2s ease;
+    left: 30px;
+    top: 15px;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &-title {
+    padding-top: 30px;
+    padding-left: 220px;
+    color: var(--color-brown);
+
+    & h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 64px;
+      letter-spacing: -0.025em;
+    }
+
+    & h4 {
+      margin: -20px 0 0 3px;
+      font-size: 1.2em;
+
+      & a {
+        text-decoration: none;
+        color: var(--color-blue-secondary);
+      }
+    }
+  }
+
+  &-nav {
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    & li {
+      float: left;
+      color: var(--color-green);
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+
+      & .active {
+        color: var(--color-blue-primary);
+      }
+
+      & a {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+        padding: 0.2rem 15px;
+      }
+
+      &:hover {
+        background: white;
+      }
+    }
+  }
+
+  &-title {
+    margin: 0px;
+  }
+
+  &-notification {
+    text-align: center;
+    background-color: var(--color-blue-header);
+    color: white;
+    padding: 4px;
+
+    & a {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+}
+
+// layout
+.layout {
+  &-body {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  &-content {
+    flex: 1;
+    margin-left: 20px;
+    padding-bottom: 40px;
+  }
+}
+
+// left navigation bar
+.left-nav-bar {
+  width: 200px;
+  padding: 0 10px;
+
+  & ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  &-internal li a {
+    display: block;
+    padding: 0.2em 0;
+    text-decoration: none;
+    color: #008ec4;
+    font-weight: bold;
+    font-size: 17px;
+    color: var(--color-blue-primary);
+  }
+
+  &-external li {
+    & a {
+      display: block;
+      padding: 0.2em 0;
+      color: var(--color-blue-secondary);
+      font-size: 14px;
+      text-decoration: none;
+
+      & svg {
+        width: 1.4em;
+        height: 1.4em;
+        fill: var(--color-blue-secondary);
+        vertical-align: middle;
+      }
+    }
+  }
+  &-toggle {
+    display: none;
+  }
+}
+
+// sponsors
+.sponsors {
+  & h5 {
+    margin: 0 0 10px 0;
+    padding: 0;
+
+    & > a {
+      text-decoration: none;
+      color: var(--color-blue-secondary);
+    }
+  }
+
+  &-link > img {
+    max-height: 100px;
+    max-width: 200px;
+    display: block;
+    margin: 5px auto;
+  }
+}
+
+// footer
+.footer {
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  font-size: 0.9em;
+
+  & a {
+    text-decoration: none;
+    color: #008ec4;
+    white-space: normal;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header {
+    &-nav {
+      padding-bottom: 12px;
+      border-bottom: 1px solid #f1c03e;
+      display: table;
+      padding-left: 0px;
+      width: 100%;
+      position: relative;
+      & li {
+        float: none;
+        text-align: center;
+        display: table-cell;
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+    }
+
+    &-wrapper {
+      min-height: unset;
+    }
+
+    &-title {
+      padding: 7px 0 5px 5px;
+      display: inline-block;
+
+      & h1 {
+        font-size: 32px;
+      }
+      & h4 {
+        display: none;
+      }
+    }
+
+    &-logo {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      left: auto;
+      top: 5px;
+    }
+  }
+
+  .left-nav-bar {
+    width: 100%;
+    padding: 0;
+
+    &-toggle {
+      display: block;
+      max-width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      text-align: center;
+      padding: 8px 20px;
+      margin: 20px auto;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      color: var(--color-blue-primary);
+    }
+
+    &-internal li {
+      text-align: center;
+      border-bottom: 1px solid #eee;
+      padding: 5px 0;
+    }
+
+    &-external li {
+      text-align: center;
+    }
+  }
+
+  .sponsors h5 {
+    text-align: center;
+  }
+
+  .layout {
+    &-body {
+      display: unset;
+    }
+    &-content {
+      margin: 0px 10px;
+    }
+  }
+}
