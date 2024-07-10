@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { FetchModuleParams, Module } from "./types";
 import useModulesApi from "./services/useModulesApi";
 
@@ -8,22 +8,25 @@ export default function useModules() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const fetchModules = (params: FetchModuleParams) => {
-    setLoading(true);
-    getModules(params)
-      .then((res) => {
-        setError("");
-        setModules(res.data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        if (err && err.name !== "AbortError") {
-          setError(err.message);
-          setModules([]);
+  const fetchModules = useCallback(
+    (params: FetchModuleParams) => {
+      setLoading(true);
+      getModules(params)
+        .then((res) => {
+          setError("");
+          setModules(res.data);
           setLoading(false);
-        }
-      });
-  };
+        })
+        .catch((err) => {
+          if (err && err.name !== "AbortError") {
+            setError(err.message);
+            setModules([]);
+            setLoading(false);
+          }
+        });
+    },
+    [getModules]
+  );
 
   return {
     fetchModules,

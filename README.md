@@ -66,4 +66,3 @@ This project is a working clone of https://bower.io/search/ with additional feat
 - **Sorting**: I only implemented sorting for stars because of API limitation.
 - **Styles**: I copied few styles from bower.io repository to make it look similar.
 - **Pagination**: The API does not return totalCount for pagination, I didn't add any logic to handle this case as I believed that it should be handled at API level.
-- **UseMemo, UseCallback and Memo**: I intentionally not added these performance improvement hooks just to keep things simple and I believe that the code readability is more important than micro performance improvements.

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 
 export default function usePagination() {
   const [page, setPage] = useState<number>(1);
@@ -11,9 +11,9 @@ export default function usePagination() {
     setPage((page) => page - 1);
   };
 
-  const reset = () => {
+  const reset = useCallback(() => {
     setPage(1);
-  };
+  }, [setPage]);
 
   return {
     goNext,

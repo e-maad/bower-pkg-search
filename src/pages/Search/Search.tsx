@@ -34,11 +34,11 @@ export default function Search() {
       page,
       sortBy,
     });
-  }, [debouncedSearchValue, sortBy, page]);
+  }, [debouncedSearchValue, sortBy, page, fetchModules]);
 
   useEffect(() => {
     resetPagination();
-  }, [search]);
+  }, [search, resetPagination]);
 
   return (
     <div data-testid="search-page">
