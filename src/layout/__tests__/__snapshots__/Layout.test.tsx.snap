@@ -1,0 +1,1450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> should validate the snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="header"
+      >
+        <div
+          class="header-wrapper"
+        >
+          <ul
+            class="header-nav"
+          >
+            <li>
+              <a
+                class="active"
+                href="#"
+              >
+                Docs
+              </a>
+            </li>
+            <li>
+              <a
+                href="/search/"
+              >
+                Search packages
+              </a>
+            </li>
+            <li>
+              <a
+                href="/blog/"
+              >
+                Blog
+              </a>
+            </li>
+            <li>
+              <a
+                href="/stats/"
+              >
+                Stats
+              </a>
+            </li>
+          </ul>
+          <img
+            class="header-logo"
+            src="logo.png"
+          />
+          <div
+            class="header-title"
+          >
+            <h1>
+              Bower Search
+            </h1>
+            <h4>
+              Powered by 
+              <a
+                href="https://libraries.io/"
+              >
+                libraries.io
+              </a>
+            </h4>
+          </div>
+        </div>
+        <div
+          class="header-notification"
+        >
+          ...psst! While Bower is maintained, we recommend using
+           
+          <a
+            href="https://yarnpkg.com/"
+          >
+            Yarn
+          </a>
+           and
+           
+          <a
+            href="https://vitejs.dev/"
+          >
+            Vite
+          </a>
+           for front-end projects.
+           
+          <a
+            href="https://bower.io/blog/2017/how-to-migrate-away-from-bower/"
+          >
+            Read how to migrate
+          </a>
+          !
+        </div>
+      </div>
+      <div
+        class="layout-body"
+      >
+        <div
+          class="left-nav-bar"
+        >
+          <div
+            class="left-nav-bar-toggle"
+          >
+            Menu
+          </div>
+          <ul
+            class="left-nav-bar-internal"
+          >
+            <li>
+              <a
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/docs/creating-packages/"
+              >
+                Creating Packages
+              </a>
+            </li>
+            <li>
+              <a
+                href="/docs/api/"
+              >
+                API
+              </a>
+            </li>
+            <li>
+              <a
+                href="/docs/config/"
+              >
+                Configuration
+              </a>
+            </li>
+            <li>
+              <a
+                href="/docs/pluggable-resolvers/"
+              >
+                Pluggable Resolvers
+              </a>
+            </li>
+            <li>
+              <a
+                href="/docs/tools/"
+              >
+                Tools
+              </a>
+            </li>
+            <li>
+              <a
+                href="/docs/about/"
+              >
+                About
+              </a>
+            </li>
+          </ul>
+          <div
+            class="sponsors"
+          >
+            <h5>
+              Sponsors (
+              <a
+                href="https://opencollective.com/bower"
+              >
+                become one
+              </a>
+              ):
+            </h5>
+            <a
+              class="sponsors-link"
+              href="https://www.loadview-testing.com/"
+              rel="sponsored"
+            >
+              <img
+                alt="LoadView-Testing"
+                class="sidebar-logo"
+                src="https://i.imgur.com/iHdPKSV.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://420couponcodes.com/"
+              rel="sponsored"
+            >
+              <img
+                alt="420couponcodes.com"
+                class="sidebar-logo"
+                src="https://i.imgur.com/IbhCD2k.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://www.credimaxx.de/"
+              rel="sponsored"
+            >
+              <img
+                alt="credimaxx.de"
+                class="sidebar-logo"
+                src="https://i.imgur.com/sf5e7KT.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://www.top5credits.com/"
+              rel="sponsored"
+            >
+              <img
+                alt="top5credits.com"
+                class="sidebar-logo"
+                src="https://i.imgur.com/K2EU3HD.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://www.ramotion.com/agency/web-design/"
+              rel="sponsored"
+            >
+              <img
+                alt="Ramotion"
+                class="sidebar-logo"
+                src="https://i.imgur.com/mQxmvRm.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://www.softwaredevelopment.co.uk/"
+              rel="sponsored"
+            >
+              <img
+                alt="SoftwareDevelopmentUK"
+                class="sidebar-logo"
+                src="https://i.imgur.com/HoU15ep.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://theymakedesign.com/best-web-design-companies-3ecc85b32071"
+              rel="sponsored"
+            >
+              <img
+                alt="theymakedesign.com"
+                class="sidebar-logo"
+                src="https://i.imgur.com/kfA0vQE.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://www.instinctools.com/cloud-computing/"
+              rel="sponsored"
+            >
+              <img
+                alt="*instinctools"
+                class="sidebar-logo"
+                src="https://i.imgur.com/c56Di42.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://www.cryptonewsz.com/"
+              rel="sponsored"
+            >
+              <img
+                alt="CryptoNewsZ"
+                class="sidebar-logo"
+                src="https://i.imgur.com/sYNDuyj.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://legalbet.uk/"
+              rel="sponsored"
+            >
+              <img
+                alt="Legalbet"
+                class="sidebar-logo"
+                src="https://i.imgur.com/2qQ6Gxf.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://vpn-review.com/"
+              rel="sponsored"
+            >
+              <img
+                alt="VPN reviews 2019"
+                class="sidebar-logo"
+                src="https://i.imgur.com/INf1G7H.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://faveable.com/"
+              rel="sponsored"
+            >
+              <img
+                alt="Faveable"
+                class="sidebar-logo"
+                src="https://i.imgur.com/PMqdGyT.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://iboysoft.com"
+              rel="sponsored"
+            >
+              <img
+                alt="iBoysoft"
+                class="sidebar-logo"
+                src="https://i.imgur.com/eOWcxUr.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://sprocketdigital.co.nz/"
+              rel="sponsored"
+            >
+              <img
+                alt="Matthew Chalk"
+                class="sidebar-logo"
+                src="https://i.imgur.com/koJsb0d.png"
+              />
+            </a>
+            <a
+              class="sponsors-link"
+              href="https://webpundits.in"
+              rel="sponsored"
+            >
+              <img
+                alt="Buy RDP online from Web Pundits"
+                class="sidebar-logo"
+                src="https://i.imgur.com/IVgnquz.png"
+              />
+            </a>
+          </div>
+          <ul
+            class="left-nav-bar-external"
+          >
+            <li>
+              <a
+                href="https://github.com/bower/bower"
+              >
+                <svg>
+                  <use
+                    xlink:href="#symbol-github-logo"
+                  />
+                </svg>
+                 
+                Bower on GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/bower"
+              >
+                <svg>
+                  <use
+                    xlink:href="#symbol-twitter-logo"
+                  />
+                </svg>
+                 
+                @bower
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="layout-content"
+        >
+          <footer
+            class="footer"
+          >
+            <p>
+              <a
+                href="https://github.com/bower/bower.github.io/issues"
+              >
+                Help improve these docs. Open an issue or pull request.
+              </a>
+            </p>
+            <p>
+              Our supporters:
+               
+              <a
+                href="https://veepn.com/vpn-apps/vpn-for-chrome/"
+                rel="sponsored"
+              >
+                VeePN VPN
+              </a>
+               | 
+              <a
+                href="https://www.partitionwizard.com"
+                rel="sponsored"
+              >
+                Partition Wizard
+              </a>
+               | 
+              <a
+                href="https://www.minitool.com"
+                rel="sponsored"
+              >
+                MiniTool
+              </a>
+               | 
+              <a
+                href="http://www.metrodetroitreview.com"
+                rel="sponsored"
+              >
+                metrodetroitreview.com
+              </a>
+               | 
+              <a
+                href="https://kafidoff.com/"
+                rel="sponsored"
+              >
+                Vasyl Kafidov
+              </a>
+               | 
+              <a
+                href="https://www.appdrawn.com/"
+                rel="sponsored"
+              >
+                AppDrawn
+              </a>
+               | 
+              <a
+                href="https://www.butikkene.no/"
+                rel="sponsored"
+              >
+                Butikkene.no
+              </a>
+               | 
+              <a
+                href="https://swiindex.com/"
+                rel="sponsored"
+              >
+                swiindex.com
+              </a>
+               | 
+              <a
+                href="https://www.plumbingnewsandmore.com/"
+                rel="sponsored"
+              >
+                Plumbing News and More
+              </a>
+               | 
+              <a
+                href="https://www.edwinsedibles.com"
+                rel="sponsored"
+              >
+                CBD Gummies
+              </a>
+               | 
+              <a
+                href="https://cyberogism.com/"
+                rel="sponsored"
+              >
+                Cyberogism
+              </a>
+               | 
+              <a
+                href="http://www.fiveguysplumbingdearborn.com"
+                rel="sponsored"
+              >
+                Five Guys Plumbing Dearborn
+              </a>
+               | 
+              <a
+                href="https://talousapu.fi/"
+                rel="sponsored"
+              >
+                Talousapu.fi
+              </a>
+               | 
+              <a
+                href="https://www.glassesonweb.com/"
+                rel="sponsored"
+              >
+                GlassesOnWeb.com
+              </a>
+               | 
+              <a
+                href="https://www.arkiraha.fi/"
+                rel="sponsored"
+              >
+                Arkiraha
+              </a>
+               | 
+              <a
+                href="https://quickbookstoolhub.com/"
+                rel="sponsored"
+              >
+                Quickbooks Tool Hub
+              </a>
+               | 
+              <a
+                href="https://oscollective.org/"
+                rel="sponsored"
+              >
+                Open Source Collective
+              </a>
+               | 
+              <a
+                href="https://oscollective.org/"
+                rel="sponsored"
+              >
+                Open Source Collective
+              </a>
+               | 
+              <a
+                href="https://www.ibeesoft.com/"
+                rel="sponsored"
+              >
+                iBeesoft
+              </a>
+               | 
+              <a
+                href="https://legalbet.uk/"
+                rel="sponsored"
+              >
+                Legalbet
+              </a>
+               | 
+              <a
+                href="https://www.mister-auto.com/"
+                rel="sponsored"
+              >
+                Mister Auto
+              </a>
+               | 
+              <a
+                href="https://www.richmondconcretepros.com/"
+                rel="sponsored"
+              >
+                Richmond Concrete
+              </a>
+               | 
+              <a
+                href="https://tankpenge.dk"
+                rel="sponsored"
+              >
+                Per Andersen
+              </a>
+               | 
+              <a
+                href="https://www.refermate.com"
+                rel="sponsored"
+              >
+                Refermate
+              </a>
+               | 
+              <a
+                href="https://www.bathroomremodelingwesterville.com"
+                rel="sponsored"
+              >
+                Bathroom Remodeling Westerville
+              </a>
+               | 
+              <a
+                href="https://www.tankcoffee.com"
+                rel="sponsored"
+              >
+                Tank Coffee
+              </a>
+               | 
+              <a
+                href="https://www.easeus.de/"
+                rel="sponsored"
+              >
+                EaseUS Germany
+              </a>
+               | 
+              <a
+                href="https://rantent.com/"
+                rel="sponsored"
+              >
+                Rantent
+              </a>
+               | 
+              <a
+                href="https://rekteddies.com/"
+                rel="sponsored"
+              >
+                Rekt Eddie's
+              </a>
+               | 
+              <a
+                href="https://www.firesticktricks.com"
+                rel="sponsored"
+              >
+                Fire Stick Tricks
+              </a>
+               | 
+              <a
+                href="https://www.upgrow.com/"
+                rel="sponsored"
+              >
+                UpGrow
+              </a>
+               | 
+              <a
+                href="https://www.upgrow.com/"
+                rel="sponsored"
+              >
+                UpGrow
+              </a>
+               | 
+              <a
+                href="https://slex.io/"
+                rel="sponsored"
+              >
+                SLEX
+              </a>
+               | 
+              <a
+                href="https://slex.io/"
+                rel="sponsored"
+              >
+                SLEX
+              </a>
+               | 
+              <a
+                href="https://truealtitude.shop/"
+                rel="sponsored"
+              >
+                True Altitude
+              </a>
+               | 
+              <a
+                href="https://truealtitude.shop/"
+                rel="sponsored"
+              >
+                True Altitude
+              </a>
+               | 
+              <a
+                href="https://www.globalsoftwarecompanies.com/"
+                rel="sponsored"
+              >
+                Global Software Companies
+              </a>
+               | 
+              <a
+                href="https://www.globalsoftwarecompanies.com/"
+                rel="sponsored"
+              >
+                Global Software Companies
+              </a>
+               | 
+              <a
+                href="https://www.troupon.com"
+                rel="sponsored"
+              >
+                Troupon
+              </a>
+               | 
+              <a
+                href="https://www.troupon.com"
+                rel="sponsored"
+              >
+                Troupon
+              </a>
+               | 
+              <a
+                href="https://minneapolistowingmn.com/"
+                rel="sponsored"
+              >
+                Minneapolis Towing
+              </a>
+               | 
+              <a
+                href="https://bestcryptofuturestradingplatform.com/"
+                rel="sponsored"
+              >
+                Crypto Futures Trading Platforms
+              </a>
+               | 
+              <a
+                href="https://earthweb.com/"
+                rel="sponsored"
+              >
+                EarthWeb
+              </a>
+               | 
+              <a
+                href="https://bountii.coupons/"
+                rel="sponsored"
+              >
+                Bountii
+              </a>
+               | 
+              <a
+                href="https://www.socialfollowers.uk/"
+                rel="sponsored"
+              >
+                Social follower
+              </a>
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="header"
+    >
+      <div
+        class="header-wrapper"
+      >
+        <ul
+          class="header-nav"
+        >
+          <li>
+            <a
+              class="active"
+              href="#"
+            >
+              Docs
+            </a>
+          </li>
+          <li>
+            <a
+              href="/search/"
+            >
+              Search packages
+            </a>
+          </li>
+          <li>
+            <a
+              href="/blog/"
+            >
+              Blog
+            </a>
+          </li>
+          <li>
+            <a
+              href="/stats/"
+            >
+              Stats
+            </a>
+          </li>
+        </ul>
+        <img
+          class="header-logo"
+          src="logo.png"
+        />
+        <div
+          class="header-title"
+        >
+          <h1>
+            Bower Search
+          </h1>
+          <h4>
+            Powered by 
+            <a
+              href="https://libraries.io/"
+            >
+              libraries.io
+            </a>
+          </h4>
+        </div>
+      </div>
+      <div
+        class="header-notification"
+      >
+        ...psst! While Bower is maintained, we recommend using
+         
+        <a
+          href="https://yarnpkg.com/"
+        >
+          Yarn
+        </a>
+         and
+         
+        <a
+          href="https://vitejs.dev/"
+        >
+          Vite
+        </a>
+         for front-end projects.
+         
+        <a
+          href="https://bower.io/blog/2017/how-to-migrate-away-from-bower/"
+        >
+          Read how to migrate
+        </a>
+        !
+      </div>
+    </div>
+    <div
+      class="layout-body"
+    >
+      <div
+        class="left-nav-bar"
+      >
+        <div
+          class="left-nav-bar-toggle"
+        >
+          Menu
+        </div>
+        <ul
+          class="left-nav-bar-internal"
+        >
+          <li>
+            <a
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/docs/creating-packages/"
+            >
+              Creating Packages
+            </a>
+          </li>
+          <li>
+            <a
+              href="/docs/api/"
+            >
+              API
+            </a>
+          </li>
+          <li>
+            <a
+              href="/docs/config/"
+            >
+              Configuration
+            </a>
+          </li>
+          <li>
+            <a
+              href="/docs/pluggable-resolvers/"
+            >
+              Pluggable Resolvers
+            </a>
+          </li>
+          <li>
+            <a
+              href="/docs/tools/"
+            >
+              Tools
+            </a>
+          </li>
+          <li>
+            <a
+              href="/docs/about/"
+            >
+              About
+            </a>
+          </li>
+        </ul>
+        <div
+          class="sponsors"
+        >
+          <h5>
+            Sponsors (
+            <a
+              href="https://opencollective.com/bower"
+            >
+              become one
+            </a>
+            ):
+          </h5>
+          <a
+            class="sponsors-link"
+            href="https://www.loadview-testing.com/"
+            rel="sponsored"
+          >
+            <img
+              alt="LoadView-Testing"
+              class="sidebar-logo"
+              src="https://i.imgur.com/iHdPKSV.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://420couponcodes.com/"
+            rel="sponsored"
+          >
+            <img
+              alt="420couponcodes.com"
+              class="sidebar-logo"
+              src="https://i.imgur.com/IbhCD2k.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://www.credimaxx.de/"
+            rel="sponsored"
+          >
+            <img
+              alt="credimaxx.de"
+              class="sidebar-logo"
+              src="https://i.imgur.com/sf5e7KT.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://www.top5credits.com/"
+            rel="sponsored"
+          >
+            <img
+              alt="top5credits.com"
+              class="sidebar-logo"
+              src="https://i.imgur.com/K2EU3HD.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://www.ramotion.com/agency/web-design/"
+            rel="sponsored"
+          >
+            <img
+              alt="Ramotion"
+              class="sidebar-logo"
+              src="https://i.imgur.com/mQxmvRm.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://www.softwaredevelopment.co.uk/"
+            rel="sponsored"
+          >
+            <img
+              alt="SoftwareDevelopmentUK"
+              class="sidebar-logo"
+              src="https://i.imgur.com/HoU15ep.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://theymakedesign.com/best-web-design-companies-3ecc85b32071"
+            rel="sponsored"
+          >
+            <img
+              alt="theymakedesign.com"
+              class="sidebar-logo"
+              src="https://i.imgur.com/kfA0vQE.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://www.instinctools.com/cloud-computing/"
+            rel="sponsored"
+          >
+            <img
+              alt="*instinctools"
+              class="sidebar-logo"
+              src="https://i.imgur.com/c56Di42.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://www.cryptonewsz.com/"
+            rel="sponsored"
+          >
+            <img
+              alt="CryptoNewsZ"
+              class="sidebar-logo"
+              src="https://i.imgur.com/sYNDuyj.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://legalbet.uk/"
+            rel="sponsored"
+          >
+            <img
+              alt="Legalbet"
+              class="sidebar-logo"
+              src="https://i.imgur.com/2qQ6Gxf.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://vpn-review.com/"
+            rel="sponsored"
+          >
+            <img
+              alt="VPN reviews 2019"
+              class="sidebar-logo"
+              src="https://i.imgur.com/INf1G7H.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://faveable.com/"
+            rel="sponsored"
+          >
+            <img
+              alt="Faveable"
+              class="sidebar-logo"
+              src="https://i.imgur.com/PMqdGyT.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://iboysoft.com"
+            rel="sponsored"
+          >
+            <img
+              alt="iBoysoft"
+              class="sidebar-logo"
+              src="https://i.imgur.com/eOWcxUr.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://sprocketdigital.co.nz/"
+            rel="sponsored"
+          >
+            <img
+              alt="Matthew Chalk"
+              class="sidebar-logo"
+              src="https://i.imgur.com/koJsb0d.png"
+            />
+          </a>
+          <a
+            class="sponsors-link"
+            href="https://webpundits.in"
+            rel="sponsored"
+          >
+            <img
+              alt="Buy RDP online from Web Pundits"
+              class="sidebar-logo"
+              src="https://i.imgur.com/IVgnquz.png"
+            />
+          </a>
+        </div>
+        <ul
+          class="left-nav-bar-external"
+        >
+          <li>
+            <a
+              href="https://github.com/bower/bower"
+            >
+              <svg>
+                <use
+                  xlink:href="#symbol-github-logo"
+                />
+              </svg>
+               
+              Bower on GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/bower"
+            >
+              <svg>
+                <use
+                  xlink:href="#symbol-twitter-logo"
+                />
+              </svg>
+               
+              @bower
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="layout-content"
+      >
+        <footer
+          class="footer"
+        >
+          <p>
+            <a
+              href="https://github.com/bower/bower.github.io/issues"
+            >
+              Help improve these docs. Open an issue or pull request.
+            </a>
+          </p>
+          <p>
+            Our supporters:
+             
+            <a
+              href="https://veepn.com/vpn-apps/vpn-for-chrome/"
+              rel="sponsored"
+            >
+              VeePN VPN
+            </a>
+             | 
+            <a
+              href="https://www.partitionwizard.com"
+              rel="sponsored"
+            >
+              Partition Wizard
+            </a>
+             | 
+            <a
+              href="https://www.minitool.com"
+              rel="sponsored"
+            >
+              MiniTool
+            </a>
+             | 
+            <a
+              href="http://www.metrodetroitreview.com"
+              rel="sponsored"
+            >
+              metrodetroitreview.com
+            </a>
+             | 
+            <a
+              href="https://kafidoff.com/"
+              rel="sponsored"
+            >
+              Vasyl Kafidov
+            </a>
+             | 
+            <a
+              href="https://www.appdrawn.com/"
+              rel="sponsored"
+            >
+              AppDrawn
+            </a>
+             | 
+            <a
+              href="https://www.butikkene.no/"
+              rel="sponsored"
+            >
+              Butikkene.no
+            </a>
+             | 
+            <a
+              href="https://swiindex.com/"
+              rel="sponsored"
+            >
+              swiindex.com
+            </a>
+             | 
+            <a
+              href="https://www.plumbingnewsandmore.com/"
+              rel="sponsored"
+            >
+              Plumbing News and More
+            </a>
+             | 
+            <a
+              href="https://www.edwinsedibles.com"
+              rel="sponsored"
+            >
+              CBD Gummies
+            </a>
+             | 
+            <a
+              href="https://cyberogism.com/"
+              rel="sponsored"
+            >
+              Cyberogism
+            </a>
+             | 
+            <a
+              href="http://www.fiveguysplumbingdearborn.com"
+              rel="sponsored"
+            >
+              Five Guys Plumbing Dearborn
+            </a>
+             | 
+            <a
+              href="https://talousapu.fi/"
+              rel="sponsored"
+            >
+              Talousapu.fi
+            </a>
+             | 
+            <a
+              href="https://www.glassesonweb.com/"
+              rel="sponsored"
+            >
+              GlassesOnWeb.com
+            </a>
+             | 
+            <a
+              href="https://www.arkiraha.fi/"
+              rel="sponsored"
+            >
+              Arkiraha
+            </a>
+             | 
+            <a
+              href="https://quickbookstoolhub.com/"
+              rel="sponsored"
+            >
+              Quickbooks Tool Hub
+            </a>
+             | 
+            <a
+              href="https://oscollective.org/"
+              rel="sponsored"
+            >
+              Open Source Collective
+            </a>
+             | 
+            <a
+              href="https://oscollective.org/"
+              rel="sponsored"
+            >
+              Open Source Collective
+            </a>
+             | 
+            <a
+              href="https://www.ibeesoft.com/"
+              rel="sponsored"
+            >
+              iBeesoft
+            </a>
+             | 
+            <a
+              href="https://legalbet.uk/"
+              rel="sponsored"
+            >
+              Legalbet
+            </a>
+             | 
+            <a
+              href="https://www.mister-auto.com/"
+              rel="sponsored"
+            >
+              Mister Auto
+            </a>
+             | 
+            <a
+              href="https://www.richmondconcretepros.com/"
+              rel="sponsored"
+            >
+              Richmond Concrete
+            </a>
+             | 
+            <a
+              href="https://tankpenge.dk"
+              rel="sponsored"
+            >
+              Per Andersen
+            </a>
+             | 
+            <a
+              href="https://www.refermate.com"
+              rel="sponsored"
+            >
+              Refermate
+            </a>
+             | 
+            <a
+              href="https://www.bathroomremodelingwesterville.com"
+              rel="sponsored"
+            >
+              Bathroom Remodeling Westerville
+            </a>
+             | 
+            <a
+              href="https://www.tankcoffee.com"
+              rel="sponsored"
+            >
+              Tank Coffee
+            </a>
+             | 
+            <a
+              href="https://www.easeus.de/"
+              rel="sponsored"
+            >
+              EaseUS Germany
+            </a>
+             | 
+            <a
+              href="https://rantent.com/"
+              rel="sponsored"
+            >
+              Rantent
+            </a>
+             | 
+            <a
+              href="https://rekteddies.com/"
+              rel="sponsored"
+            >
+              Rekt Eddie's
+            </a>
+             | 
+            <a
+              href="https://www.firesticktricks.com"
+              rel="sponsored"
+            >
+              Fire Stick Tricks
+            </a>
+             | 
+            <a
+              href="https://www.upgrow.com/"
+              rel="sponsored"
+            >
+              UpGrow
+            </a>
+             | 
+            <a
+              href="https://www.upgrow.com/"
+              rel="sponsored"
+            >
+              UpGrow
+            </a>
+             | 
+            <a
+              href="https://slex.io/"
+              rel="sponsored"
+            >
+              SLEX
+            </a>
+             | 
+            <a
+              href="https://slex.io/"
+              rel="sponsored"
+            >
+              SLEX
+            </a>
+             | 
+            <a
+              href="https://truealtitude.shop/"
+              rel="sponsored"
+            >
+              True Altitude
+            </a>
+             | 
+            <a
+              href="https://truealtitude.shop/"
+              rel="sponsored"
+            >
+              True Altitude
+            </a>
+             | 
+            <a
+              href="https://www.globalsoftwarecompanies.com/"
+              rel="sponsored"
+            >
+              Global Software Companies
+            </a>
+             | 
+            <a
+              href="https://www.globalsoftwarecompanies.com/"
+              rel="sponsored"
+            >
+              Global Software Companies
+            </a>
+             | 
+            <a
+              href="https://www.troupon.com"
+              rel="sponsored"
+            >
+              Troupon
+            </a>
+             | 
+            <a
+              href="https://www.troupon.com"
+              rel="sponsored"
+            >
+              Troupon
+            </a>
+             | 
+            <a
+              href="https://minneapolistowingmn.com/"
+              rel="sponsored"
+            >
+              Minneapolis Towing
+            </a>
+             | 
+            <a
+              href="https://bestcryptofuturestradingplatform.com/"
+              rel="sponsored"
+            >
+              Crypto Futures Trading Platforms
+            </a>
+             | 
+            <a
+              href="https://earthweb.com/"
+              rel="sponsored"
+            >
+              EarthWeb
+            </a>
+             | 
+            <a
+              href="https://bountii.coupons/"
+              rel="sponsored"
+            >
+              Bountii
+            </a>
+             | 
+            <a
+              href="https://www.socialfollowers.uk/"
+              rel="sponsored"
+            >
+              Social follower
+            </a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
