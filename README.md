@@ -4,7 +4,7 @@
 ## Overview
 
 This project is a working clone of https://bower.io/search/ with additional features.
-**For testing please visit [Bower Search](https://e-maad1.github.io).**
+**For testing please visit [Bower Search](https://e-maad.github.io).**
 
 ## Testing Strategies 
 
