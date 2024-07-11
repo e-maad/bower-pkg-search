@@ -59,7 +59,6 @@ This project is a working clone of https://bower.io/search/ with additional feat
 - **Localization/Internationalization**: Multilingual support can be added.
 - **Accessibility**: Improvement in color contracts and UX.
 - **Customizable Columns**: User should be able to select columns for the table.
-- **E2E Tests**: Added e2e test for major functionalities.
 
 ## Trade-offs
 - **Use of component library**: To keep the task simple and more challenging I prefered no to use any component library.
